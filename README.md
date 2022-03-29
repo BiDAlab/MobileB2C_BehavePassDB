@@ -20,7 +20,7 @@
 2. [Download the database](http://atvs.ii.uam.es/atvs/intranet/free_DB/MobileB2C_BehavePassDB), for which you will need to provide the authentication information given in step 4. After you finish the download, please notify by email to [**atvs@uam.es**](mailto:atvs@uam.es) that you have successfully completed the transaction.
 3. For more information, please contact: [**atvs@uam.es**](mailto:atvs@uam.es)
 
-## **DESCRIPTION OF SVC2021_EvalDB**
+<!-- ## **DESCRIPTION OF SVC2021_EvalDB**
 
 The SVC2021_EvalDB database is a novel database specifically acquired for SVC 2021 and also used in SVC-OnGoing Competition. Two acquisition scenarios are considered: office and mobile scenarios.
 
@@ -40,3 +40,4 @@ For further information on the database and on different applications where it h
 - R. Tolosana, R. Vera-Rodriguez, C. Gonzalez-Garcia, et al., “SVC-onGoing: Signature Verification Competition”, Pattern Recognition, 2022.  
 
 - R. Tolosana, R. Vera-Rodriguez, J. Fierrez, and J. Ortega-Garcia, et al., “ICDAR 2021 Competition on On-Line Signature Verification”, in Proc. International Conference on Document Analysis and Recognition, ICDAR, Lausanne, Switzerland, 2021.
+ -->
