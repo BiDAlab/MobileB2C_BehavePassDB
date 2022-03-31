@@ -5,7 +5,7 @@
 
 1. Download your corresponding license agreement:
 
-    [[link](http://atvs.ii.uam.es/atvs/licenses/MobileB2C_Evaluation_License.pdf)] Permanent researchers working at research or academic institutions, and selected companies generating research outcomes.
+    [[link](http://atvs.ii.uam.es/atvs/licenses/MobileB2C_BehavePassDB_Evaluation_License.pdf)] Permanent researchers working at research or academic institutions, and selected companies generating research outcomes.
    
 
     Once the corresponding license agreement is signed, send the scanned copy to atvs@uam.es according to the instructions given in point 2.
