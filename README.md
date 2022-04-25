@@ -8,7 +8,7 @@
     [[link](http://atvs.ii.uam.es/atvs/licenses/MobileB2C_BehavePassDB_License.pdf)] Permanent researchers working at research or academic institutions.
     
     
-    [[link](http://atvs.ii.uam.es/atvs/licenses/MobileB2C_Evaluation_License_ONLY_MobileB2C2022.pdf)] Selected companies generating research outcomes.
+    [[link](http://atvs.ii.uam.es/atvs/licenses/MobileB2C_Evaluation_License_ONLY_MobileB2C2022.pdf)] Selected companies and independent professionals generating research outcomes.
    
 
     Once the corresponding license agreement is signed, send the scanned copy to atvs@uam.es according to the instructions given in point 2.
