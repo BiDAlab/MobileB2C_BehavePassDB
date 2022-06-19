@@ -23,6 +23,10 @@
 2. Download the [Development and Validation Set](http://atvs.ii.uam.es/atvs/intranet/free_DB/MobileB2C_BehavePassDB) and the final [Evaluation Set](http://atvs.ii.uam.es/atvs/intranet/free_DB/MobileB2C_BehavePassDB_EvalSet), for which you will need to provide the authentication information given in step 3. After you finish the download, please notify by email to [**atvs@uam.es**](mailto:atvs@uam.es) that you have successfully completed the transaction.
 3. For more information, please contact: [**atvs@uam.es**](mailto:atvs@uam.es)
 
+
+
+**A benchmark evaluation of user authentication performance based on MobileB2C_BehavePassDB is available [here](https://arxiv.org/abs/2206.02502).**
+
 <!-- ## **DESCRIPTION OF SVC2021_EvalDB**
 
 The SVC2021_EvalDB database is a novel database specifically acquired for SVC 2021 and also used in SVC-OnGoing Competition. Two acquisition scenarios are considered: office and mobile scenarios.
