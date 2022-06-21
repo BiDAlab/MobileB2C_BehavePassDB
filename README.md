@@ -1,6 +1,6 @@
 # MobileB2C_BehavePassDB
 
-**BehavePassDB** is a novel database of behavioral biometric data collected for typical mobile Human-Computer Interaction (HCI) activities. The database includes several **touch gestures (free-text keystroke, swipe, tap dynamics)**, and **background sensor data (accelerometer, gyroscope, magnetometer, lin. accelerometer, gravity sensor)** simultaneously acquired.
+**BehavePassDB_BehavePassDB** is a novel database of behavioral biometric data collected for typical mobile Human-Computer Interaction (HCI) activities. The database includes several **touch gestures (free-text keystroke, swipe, tap dynamics)**, and **background sensor data (accelerometer, gyroscope, magnetometer, lin. accelerometer, gravity sensor)** simultaneously acquired.
 
 The database is used for the [IJCB 2022 Mobile Behavioral Biometric Competition (MobileB2C)](http://www.ijcb2022.org/#/competitions). More information about the competition is available [here](https://sites.google.com/view/mobileb2c/). The competition ended on June, 7th, 2022, but it will be soon established as an ongoing competition.
 
@@ -9,11 +9,11 @@ Contact: [mobileb2c.bidalab@gmail.com](mailto:mobileb2c.bidalab@gmail.com)
 # **Data Format**
 
 Each subject’s data are structured into 4 acquisition sessions. Each acquisition session contains different tasks (texting, text reading, gallery swiping, tapping). During each of the tasks, touchscreen and background sensor data are acquired.
-The BehavePass database will be divided into two subsets:
-- Development: BehavePassDB DevSet (51 users).
-- Validation and Evaluation: **BehavePassDB ValSet** and **BehavePassDB EvalSet** (respectively 10 and 20 different users), including the skilled impostor case, i.e., along the 4 genuine sessions, 2 extra sessions carried out by a different user on the same mobile device are included. Such extra sessions will be used to verify a different user on the same mobile device as the genuine one.
+The MobileB2C_BehavePass database will be divided into two subsets:
+- Development: MobileB2C_BehavePassDB DevSet (51 users).
+- Validation and Evaluation: **MobileB2C_BehavePassDB ValSet** and **MobileB2C_BehavePassDB EvalSet** (respectively 10 and 20 different users), including the skilled impostor case, i.e., along the 4 genuine sessions, 2 extra sessions carried out by a different user on the same mobile device are included. Such extra sessions will be used to verify a different user on the same mobile device as the genuine one.
  
-Starting from the acquired raw data, both the development (BehavePassDB DevSet) and the evaluation (BehavePassDB EvalSet) databases will be provided in the form of JSON files structured as follows:
+Starting from the acquired raw data, both the development (MobileB2C_BehavePassDB DevSet) and the evaluation (MobileB2C_BehavePassDB EvalSet) databases will be provided in the form of JSON files structured as follows:
 - **DevSet.json**, 51 users: Genuine sessions (“g1”-“g4”) : Tasks (“keystroke”, “readtext”, “gallery”, “tap”) : Modality (“touch”, “sensor_acc”, “sensor_accl”, “sensor_gyro”, “sensor_grav”, “sensor_magn”) : Time-Series Data
 - **ValSet_Task_enrolment.json**: Pseudonymized Enrolment Sessions : Task : Modality (“touch”, “sensor_acc”, “sensor_accl”, “sensor_gyro”, “sensor_grav”, “sensor_magn”)  : Time-Series Data
 - **ValSet_Task_verification.json**: Pseudonymized Verification Sessions : Task : Modality (“touch”, “sensor_acc”, “sensor_accl”, “sensor_gyro”, “sensor_grav”, “sensor_magn”)  : Time-Series Data. 
@@ -30,7 +30,7 @@ All other touch data: \[timestamp, x_coordinate / screen_width, y_coordinate / s
 Background sensor data: \[timestamp, x_coordinate, y_coordinate, z_coordinate\]. 
 
 
-# **INSTRUCTIONS FOR DOWNLOADING MobileB2C_BehavePassDB**
+# **Instructions for downloading MobileB2C_BehavePassDB**
 
 1. Download your corresponding license agreement:
 
