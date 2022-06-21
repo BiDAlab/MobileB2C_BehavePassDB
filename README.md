@@ -6,6 +6,7 @@ The database is used for the [IJCB 2022 Mobile Behavioral Biometric Competition 
 
 Contact: [mobileb2c.bidalab@gmail.com](mailto:mobileb2c.bidalab@gmail.com)
 
+
 # **Data Format**
 
 Each subject’s data are structured into 4 acquisition sessions. Each acquisition session contains different tasks (texting, text reading, gallery swiping, tapping). During each of the tasks, touchscreen and background sensor data are acquired.
@@ -20,14 +21,14 @@ Starting from the acquired raw data, both the development (MobileB2C_BehavePassD
 - **EvalSet_Task_enrolment.json**: Pseudonymized Enrolment Sessions : Task : Modality (“touch”, “sensor_acc”, “sensor_accl”, “sensor_gyro”, “sensor_grav”, “sensor_magn”)  : Time-Series Data
 - **EvalSet_Task_verification.json**: Pseudonymized Verification Sessions : Task : Modality (“touch”, “sensor_acc”, “sensor_accl”, “sensor_gyro”, “sensor_grav”, “sensor_magn”)  : Time-Series Data. 
 
-The validation set labels are available upon [request](mailto:mobileb2c.bidalab@gmail.com).
-
 The Time-Series Data will be provided into a different form depending on the modality. Specifically, each acquired sample is structured as follows:
 Keystroke data: \[timestamp, ascii_code\]
 
 All other touch data: \[timestamp, x_coordinate / screen_width, y_coordinate / screen_height, action_type\]. action_type refers to the touch."0" corresponds to laying the finger, "1" to lifting the finger, "2" to moving the finger on the screen.
 
 Background sensor data: \[timestamp, x_coordinate, y_coordinate, z_coordinate\]. 
+
+The validation set labels are available upon [request](mailto:mobileb2c.bidalab@gmail.com).
 
 
 # **Instructions for downloading MobileB2C_BehavePassDB**
@@ -53,11 +54,10 @@ Background sensor data: \[timestamp, x_coordinate, y_coordinate, z_coordinate\].
 3. For more information, please contact: [**atvs@uam.es**](mailto:atvs@uam.es)
 
 
-
 **A benchmark evaluation of user authentication performance based on MobileB2C_BehavePassDB is available in [\[1\]](https://arxiv.org/abs/2206.02502).**
 
 
-## **REFERENCES**
+# **REFERENCES**
 
 [\[1\] G. Stragapede, R. Vera-Rodriguez, R. Tolosana, A. Morales, "BehavePassDB: Benchmarking Mobile Behavioral Biometrics", arXiv:2206.02502, 2022.](https://arxiv.org/abs/2206.02502)
 
