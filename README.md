@@ -57,7 +57,7 @@ The validation set labels are available upon [request](mailto:mobileb2c.bidalab@
 **A benchmark evaluation of user authentication performance based on MobileB2C_BehavePassDB is available in [\[1\]](https://arxiv.org/abs/2206.02502).**
 
 
-# **REFERENCES**
+# **Reference**
 
 [\[1\] G. Stragapede, R. Vera-Rodriguez, R. Tolosana, A. Morales, "BehavePassDB: Benchmarking Mobile Behavioral Biometrics", arXiv:2206.02502, 2022.](https://arxiv.org/abs/2206.02502)
 
