@@ -10,7 +10,7 @@ Contact: [mobileb2c.bidalab@gmail.com](mailto:mobileb2c.bidalab@gmail.com)
 
 Each subject’s data are structured into 4 acquisition sessions. Each acquisition session contains different tasks (texting, text reading, gallery swiping, tapping). During each of the tasks, touchscreen and background sensor data are acquired.
 The MobileB2C_BehavePass database will be divided into two subsets:
-- Development: MobileB2C_BehavePassDB DevSet (51 users).
+- Development: **MobileB2C_BehavePassDB DevSet** (51 users).
 - Validation and Evaluation: **MobileB2C_BehavePassDB ValSet** and **MobileB2C_BehavePassDB EvalSet** (respectively 10 and 20 different users), including the skilled impostor case, i.e., along the 4 genuine sessions, 2 extra sessions carried out by a different user on the same mobile device are included. Such extra sessions will be used to verify a different user on the same mobile device as the genuine one.
  
 Starting from the acquired raw data, both the development (MobileB2C_BehavePassDB DevSet) and the evaluation (MobileB2C_BehavePassDB EvalSet) databases will be provided in the form of JSON files structured as follows:
@@ -59,6 +59,6 @@ Background sensor data: \[timestamp, x_coordinate, y_coordinate, z_coordinate\].
 
 ## **REFERENCES**
 
-\[1\] [G. Stragapede, R. Vera-Rodriguez, R. Tolosana, A. Morales, "BehavePassDB: Benchmarking Mobile Behavioral Biometrics", arXiv:2206.02502, 2022.](https://arxiv.org/abs/2206.02502)
+[\[1\] G. Stragapede, R. Vera-Rodriguez, R. Tolosana, A. Morales, "BehavePassDB: Benchmarking Mobile Behavioral Biometrics", arXiv:2206.02502, 2022.](https://arxiv.org/abs/2206.02502)
 
 
