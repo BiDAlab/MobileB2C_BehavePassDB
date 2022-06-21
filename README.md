@@ -30,7 +30,6 @@ Background sensor data: \[timestamp, x_coordinate, y_coordinate, z_coordinate\].
 
 The validation set labels are available upon [request](mailto:mobileb2c.bidalab@gmail.com).
 
-![Keystroke](https://lh3.googleusercontent.com/c-xyyxzXp79FZZREGQ3eLVZQ9uSSAdE1ZJs1aLTwMwdi2ehqFTTfL92VRLV-eFCgqrvxxUXVyUu63X9dn27eoIqTdvSGPz_60ppP9gI2UJmwQ7-8A3KMuv71GxR8s99AFA=w1280)
 
 # **Instructions for downloading MobileB2C_BehavePassDB**
 
