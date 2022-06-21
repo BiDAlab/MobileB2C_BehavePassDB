@@ -25,26 +25,11 @@
 
 
 
-**A benchmark evaluation of user authentication performance based on MobileB2C_BehavePassDB is available [here](https://arxiv.org/abs/2206.02502).**
-
-<!-- ## **DESCRIPTION OF SVC2021_EvalDB**
-
-The SVC2021_EvalDB database is a novel database specifically acquired for SVC 2021 and also used in SVC-OnGoing Competition. Two acquisition scenarios are considered: office and mobile scenarios.
-
-
-![](SVC2021.png)
-
-
-*	**Office scenario**: on-line signatures from 75 total subjects were acquired using a Wacom STU-530 device with the stylus as writing input. Regarding the acquisition protocol, the device was placed on a desktop and subjects were able to rotate it in order to feel comfortable with the writing position. It is important to highlight that the subjects considered in the acquisition of SVC2021_EvalDB are different compared to the ones considered in the DeepSignDB database. Signatures were collected in two separated sessions with a time gap between them of at least 1 week. For each subject, there are 8 total genuine signatures (4 signatures/session) and 16 skilled forgeries (8 signatures/type) performed by four different subjects in two different sessions. Regarding the skilled forgeries, both static and dynamic forgeries were considered in the first and second acquisition sessions, respectively. Information related to X and Y spatial coordinates, pressure, and timestamp is recorded for the Wacom device. In addition, pen-up trajectories are also available.
-
-*	**Mobile scenario**: on-line signatures from 119 total subjects were acquired using the same acquisition framework considered in MobileTouchDB. Regarding the acquisition protocol, we implemented an Android App and uploaded it to the Play Store in order to study an unsupervised mobile scenario. This way all subjects could download the App and use it on their own devices without any kind of supervision, simulating a practical scenario in which subjects can generate touchscreen on-line signatures in any possible scenario, e.g., standing, sitting, walking, indoors, outdoors, etc. As a result, 94 different smartphone models from 16 different brands were collected during the acquisition. Regarding the acquisition protocol, between four and six separated sessions in different days were considered with a total time gap between the first and last session of at least 3 weeks. For each subject, there are at least 8 total genuine signatures (2 signatures/session) and 16 skilled forgeries (8 signatures/type) performed by four different subjects. Regarding the skilled forgeries, both static and dynamic forgeries were considered, similar to the office scenario. Information related to X and Y spatial coordinates, and timestamp is recorded for all devices. Pen-up information is not available in this case.
+**A benchmark evaluation of user authentication performance based on MobileB2C_BehavePassDB is available in [1](https://arxiv.org/abs/2206.02502).**
 
 
 ## **REFERENCES**
 
-For further information on the database and on different applications where it has been used, we refer the reader to (all these articles are publicly available in the [publications](http://atvs.ii.uam.es/atvs/listpublications.do) section of the BiDA group webpage.)
+\[1] [G. Stragapede, R. Vera-Rodriguez, R. Tolosana, A. Morales, "BehavePassDB: Benchmarking Mobile Behavioral Biometrics", arXiv:2206.02502, 2022.](https://arxiv.org/abs/2206.02502)
 
-- R. Tolosana, R. Vera-Rodriguez, C. Gonzalez-Garcia, et al., “SVC-onGoing: Signature Verification Competition”, Pattern Recognition, 2022.  
 
-- R. Tolosana, R. Vera-Rodriguez, J. Fierrez, and J. Ortega-Garcia, et al., “ICDAR 2021 Competition on On-Line Signature Verification”, in Proc. International Conference on Document Analysis and Recognition, ICDAR, Lausanne, Switzerland, 2021.
- -->
