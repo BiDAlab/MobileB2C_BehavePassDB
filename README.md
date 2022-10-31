@@ -2,7 +2,7 @@
 
 **BehavePassDB_BehavePassDB** is a novel database of behavioral biometric data collected for typical mobile Human-Computer Interaction (HCI) activities. The database includes several **touch gestures (free-text keystroke, swipe, tap dynamics)**, and **background sensor data (accelerometer, gyroscope, magnetometer, lin. accelerometer, gravity sensor)** simultaneously acquired.
 
-The database is used for the [IJCB 2022 Mobile Behavioral Biometric Competition (MobileB2C)](http://www.ijcb2022.org/#/competitions). More information about the competition is available [here](https://sites.google.com/view/mobileb2c/). The competition ended on June, 7th, 2022, but it will be soon established as an ongoing competition.
+The database is used for the [IJCB 2022 Mobile Behavioral Biometric Competition (MobileB2C)](http://www.ijcb2022.org/#/competitions) and for the correspondent ongoing competition launched as its extension. More information about the competition is available [here](https://sites.google.com/view/mobileb2c/). The IJCB2022 competition ended on June, 7th, 2022.
 
 Contact: [mobileb2c.bidalab@gmail.com](mailto:mobileb2c.bidalab@gmail.com)
 
@@ -20,6 +20,7 @@ Starting from the acquired raw data, both the development (MobileB2C_BehavePassD
 - **ValSet_Task_verification.json**: Pseudonymized Verification Sessions : Task : Modality (“touch”, “sensor_acc”, “sensor_accl”, “sensor_gyro”, “sensor_grav”, “sensor_magn”)  : Time-Series Data. 
 - **EvalSet_Task_enrolment.json**: Pseudonymized Enrolment Sessions : Task : Modality (“touch”, “sensor_acc”, “sensor_accl”, “sensor_gyro”, “sensor_grav”, “sensor_magn”)  : Time-Series Data
 - **EvalSet_Task_verification.json**: Pseudonymized Verification Sessions : Task : Modality (“touch”, “sensor_acc”, “sensor_accl”, “sensor_gyro”, “sensor_grav”, “sensor_magn”)  : Time-Series Data. 
+- **ValSet_labels (folder)**: One .txt file per each of the tasks containing the labels (ground truth) of each session-to-session comparison of the validation set.
 
 The Time-Series Data will be provided into a different form depending on the modality. Specifically, each acquired sample is structured as follows:
 Keystroke data: \[timestamp, ascii_code\]
@@ -54,11 +55,13 @@ The validation set labels are available upon [request](mailto:mobileb2c.bidalab@
 3. For more information, please contact: [**atvs@uam.es**](mailto:atvs@uam.es)
 
 
-**A benchmark evaluation of user authentication performance based on MobileB2C_BehavePassDB is available in [\[1\]](https://arxiv.org/abs/2206.02502).**
+**A benchmark evaluation of user authentication performance based on MobileB2C_BehavePassDB is available in [\[1\]](https://www.sciencedirect.com/science/article/pii/S0031320322005696).**
 
 
-# **Reference**
+# **References**
 
-[\[1\] G. Stragapede, R. Vera-Rodriguez, R. Tolosana, A. Morales, "BehavePassDB: Benchmarking Mobile Behavioral Biometrics", arXiv:2206.02502, 2022.](https://arxiv.org/abs/2206.02502)
+[\[1\] G. Stragapede, R. Vera-Rodriguez, R. Tolosana, A. Morales, "BehavePassDB: Public Database for Mobile Behavioral Biometrics and Benchmark Evaluation", Pattern Recognition, 2022.](https://www.sciencedirect.com/science/article/pii/S0031320322005696)
 
+[\[2\] G. Stragapede, R. Vera-Rodriguez, R. Tolosana, A. Morales, J. Fierrez, J. Ortega-Garcia et al. "IJCB 2022 Mobile Behavioral Biometrics Competition (MobileB2C)", Proc. of the 2022 International Joint Conference of Biometrics (IJCB), Abu Dhabi, 2022.](https://arxiv.org/abs/2210.03072)
 
+[\[3\] G. Stragapede, R. Vera-Rodriguez, R. Tolosana, A. Morales, A. Acien, G. Le Lan, "Mobile Behavioral Biometrics for Passive Authentication",  Pattern Recognition Letters, 2022.](https://www.sciencedirect.com/science/article/pii/S016786552200071X)
