@@ -2,7 +2,7 @@
 
 **BehavePassDB_BehavePassDB** is a novel database of behavioral biometric data collected for typical mobile Human-Computer Interaction (HCI) activities. The database includes several **touch gestures (free-text keystroke, swipe, tap dynamics)**, and **background sensor data (accelerometer, gyroscope, magnetometer, lin. accelerometer, gravity sensor)** simultaneously acquired.
 
-The database is used for the [IJCB 2022 Mobile Behavioral Biometric Competition (MobileB2C)](http://www.ijcb2022.org/#/competitions) and for the correspondent ongoing competition launched as its extension. More information about the competition is available [here](https://sites.google.com/view/mobileb2c/). 
+The database is used for the [IJCB 2022 Mobile Behavioral Biometric Competition (MobileB2C)](http://www.ijcb2022.org/#/competitions) and for the correspondent ongoing competition launched as its extension. More information about the competition is available [here](https://sites.google.com/view/mobileb2c/). The ongoing competition has started on Nov. 3rd, 2022.
 
 Contact: [mobileb2c.bidalab@gmail.com](mailto:mobileb2c.bidalab@gmail.com)
 
