@@ -22,6 +22,8 @@ Starting from the acquired raw data, both the development (MobileB2C_BehavePassD
 - **EvalSet_Task_verification.json**: Pseudonymized Verification Sessions : Task : Modality (“touch”, “sensor_acc”, “sensor_accl”, “sensor_gyro”, “sensor_grav”, “sensor_magn”)  : Time-Series Data. 
 - **ValSet_labels (folder)**: One .txt file per each of the tasks containing the labels (ground truth) of each session-to-session comparison of the validation set.
 
+While the labels of the Validation Set comparisons are provided together with the data, the labels of the Evaluation Set are not included in the database. It is necessary to submit the scores on [CodaLab](https://codalab.lisn.upsaclay.fr/competitions/3564) to get the evaluation results. 
+
 The Time-Series Data will be provided into a different form depending on the modality. Specifically, each acquired sample is structured as follows:
 Keystroke data: \[timestamp, ascii_code\]
 
