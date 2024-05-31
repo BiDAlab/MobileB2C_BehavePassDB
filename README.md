@@ -34,9 +34,10 @@ Background sensor data: \[timestamp, x_coordinate, y_coordinate, z_coordinate\].
 
 # **Instructions for downloading MobileB2C_BehavePassDB**
 
-1. Download the license agreement:
+1. Download the license agreements:
 
-    [[link](https://bidalab.eps.uam.es/listdatabases?id=MobileB2C_BehavePassDB#page)] for permanent researchers working at research or academic institutions.
+    [[link](https://bidalab.eps.uam.es/listdatabases?id=MobileB2C_BehavePassDB#page)] for the development set and validation set.
+    [[link](https://bidalab.eps.uam.es/listdatabases?id=MobileB2C_BehavePassDB_EvalSet#page)] for evaluation set.
     
 Please sign the license agreement and send the scanned copy to atvs@uam.es according to the instructions given in point 2.
 
