@@ -6,6 +6,9 @@ The database is used for the [IJCB 2022 Mobile Behavioral Biometric Competition 
 
 Contact: [mobileb2c.bidalab@gmail.com](mailto:mobileb2c.bidalab@gmail.com)
 
+# NEW: Benchmark Source Code Released
+
+The code for the experiments in [\[1\]](https://www.sciencedirect.com/science/article/pii/S0031320322005696) is now available [here](https://github.com/gstrag/BehavePassDB_benchmark).
 
 # **Data Format**
 
